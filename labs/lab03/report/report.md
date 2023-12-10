@@ -102,17 +102,17 @@ header-includes:
 №2:
 cd ~/work/study/2023-2024/"Архитектура компьютера"/arch-pc/
 
-![Команда 'cd ~/work/study/2023-2024/"Архитектура компьютера"/arch-pc/'](image/cd ~workstudy2023-2024"Архитектура компьютера"arch-pc.jpg)<hr><br>
+![Команда 'cd ~/work/study/2023-2024/"Архитектура компьютера"/arch-pc/'](image/cd~workstudy2023-2024"Архитектуракомпьютера"arch-pc.jpg)<hr><br>
 
 Обновите локальный репозиторий, скачав изменения из удаленного репозитория с помощью команды
 git pull
 
-![Команда 'git pull'](image/git pull.jpg)<hr><br>
+![Команда 'git pull'](image/gitpull.jpg)<hr><br>
 
 3. Перейдите в каталог с шаблоном отчета по лабораторной работе № 3
 cd ~/work/study/2023-2024/"Архитектура компьютера"/arch-pc/labs/lab03/report
 
-![Команда 'labs/lab03/report'](image/cd labslab03report.jpg)<hr><br>
+![Команда 'labs/lab03/report'](image/cdlabslab03report.jpg)<hr><br>
 
 4. Проведите компиляцию шаблона с использованием Makefile. Для этого введите команду
 make
@@ -125,13 +125,13 @@ make
 make clean
 Проверьте, что после этой команды файлы report.pdf и report.docx были удалены.
 
-![Команда 'make clean'](image/make clean.jpg)<hr><br>
+![Команда 'make clean'](image/makeclean.jpg)<hr><br>
 
 6. Откройте файл report.md c помощью любого текстового редактора, например gedit
 gedit report.md
 Внимательно изучите структуру этого файла.
 
-![Команда 'gedit'](image/getid .jpg)<hr><br>
+![Команда 'gedit'](image/getid.jpg)<hr><br>
 
 # Выводы
 
