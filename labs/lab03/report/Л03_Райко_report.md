@@ -1,18 +1,18 @@
 ---
-# Front matter
+## Front matter
 title: "Отчет по лабораторной работы №3"
 subtitle: "Архитектура компьютеров и Операционные системы"
 author: "Матвей Витальевич Райко"
 
-# Generic otions
+## Generic otions
 lang: ru-RU
 toc-title: "Содержание"
 
-# Bibliography
+## Bibliography
 bibliography: bib/cite.bib
 csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
-# Pdf output format
+## Pdf output format
 toc: true # Table of contents
 toc-depth: 2
 lof: true # List of figures
@@ -22,7 +22,7 @@ linestretch: 1.5
 papersize: a4
 documentclass: scrreprt
 
-# I18n polyglossia
+## I18n polyglossia
 polyglossia-lang:
   name: russian
   options:
@@ -31,11 +31,11 @@ polyglossia-lang:
 polyglossia-otherlangs:
   name: english
   
-# I18n babel
+## I18n babel
 babel-lang: russian
 babel-otherlangs: english
 
-# Fonts
+## Fonts
 mainfont: DejaVuSerif
 romanfont: Times New Roman
 sansfont: DejaVu Sans
@@ -45,7 +45,7 @@ romanfontoptions: Ligatures=TeX
 sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
 monofontoptions: Scale=MatchLowercase,Scale=0.9
 
-# Biblatex
+## Biblatex
 biblatex: true
 biblio-style: "gost-numeric"
 biblatexoptions:
@@ -56,7 +56,7 @@ biblatexoptions:
   - autolang=other*
   - citestyle=gost-numeric
   
-# Pandoc-crossref LaTeX customization
+## Pandoc-crossref LaTeX customization
 figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
@@ -64,7 +64,7 @@ lofTitle: "Список иллюстраций"
 lotTitle: "Список таблиц"
 lolTitle: "Листинги"
 
-# Misc options
+## Misc options
 indent: true
 header-includes:
   - \usepackage{indentfirst}
